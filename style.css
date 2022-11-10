@@ -1,0 +1,203 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: Byekan,"Byekan" ,tahoma;
+  direction: rtl;
+}
+body input , body textarea {
+  font-family: Byekan,"Byekan" ,tahoma;
+  direction: rtl;
+}
+#header {
+  background-image: url(images/tasvir1.png) ;
+  width: 100%;
+  height: 670px;
+}
+.wrapper {
+  width: 1000px;
+  height: auto;
+  margin: 0 auto;
+}
+#navigation li {
+  float : right ;
+}
+#navigation li {
+    display: inline;
+}
+#navigation li a {
+color:#fff;
+text-decoration: none;
+padding: 30px 15px 10px 30px;
+float: right;
+}
+#navigation li a:hover {
+  color: #FFA500;
+  }
+#top_logo {
+  float : left ;
+  margin-top : 15px ;
+}
+.site-titr {
+width:1000px;
+  height: auto;
+  margin: 100px auto ;
+  float:right;
+  text-align: center;
+  color:#fff;
+}
+.site-titr h1 {
+border-bottom: 1px solid #00e0d0 ;
+display:inline;
+padding-bottom :20px;
+}
+.site-titr h3 {
+font-size:18px;
+margin-top : 35px;
+line-height: 1.8 ;
+margin-bottom: 40px
+}
+.site-titr a {
+  text-decoration: none;
+  border: 1px solid #00e0d0;
+  padding:15px;
+  color:#00e0d0;
+  font-size: 14px ;
+  border-radius: 4px;
+}
+.site-titr a:hover {
+  background-color: #00e0d0;
+  color: #fff;
+}
+#our-story {
+  width: 100%;
+  height: 280px;
+  background-color:#fff;
+}
+#top_about {
+  float : right ;
+  margin-top : 15px ;
+}
+#our-story {
+  background-color:#fff;
+  padding: 50px 0px 50px;
+}
+.right {
+  width:46%;
+  height: auto;
+  float: right;
+  padding: 2%;
+}
+.left {
+  width:46%;
+  height:auto;
+  float:left;
+  padding: 2%;
+}
+.right p {
+  margin-top: 20px;
+}
+.right h2 {
+  color:#413d4b;
+}
+.right p {
+  color:#716e78;
+  line-height: 1.3;
+  font-size: 14px;
+}
+.left img {
+  margin: 0 auto;
+  display:block;
+}
+#client-message
+ {
+  background-image: url(images/zamine.png);
+  width:100%;
+  height:500px;
+}
+#client-message img {
+  margin-top: 95px;
+  float:left;
+  width:100%;
+}
+#contact {
+  width: 100%;
+  height: 500px ;
+  padding: 60px 0px ;
+  background-color:#fff;
+}
+.right h2 {
+  color:#716e78;
+  font-size: 18px;
+}
+.left h2 {
+  color:#716e78;
+  font-size: 18px;
+}
+#contact .left form input , #contact .left form textarea {
+  padding: 10px;
+  font-size: 14px;
+  margin-bottom: 15px;
+  width: 93%;
+  outline: none;
+  border : 1px solid #e5e5e5
+}
+#contact .left form textarea {
+  height: 200px;
+  resize: none;
+}
+#contact .left form input[type=submit]{
+  width: 100px;
+}
+#contact img {
+display: block;
+margin: 0 auto;
+padding: 11px;
+}
+.more {
+  text-decoration: none;
+  border: 1px solid #00e0d0 !important ;
+  padding:15px;
+  color:#00e0d0;
+  font-size: 14px ;
+  border-radius: 4px;
+  background-color: #fff;
+}
+.more:hover {
+  background-color: #00e0d0;
+  color: #fff;
+  cursor: pointer;
+}
+#footer
+ {
+  background-image: url(images/footer.png);
+  width:100%;
+  height:400px;
+}
+.footer-qoute {
+  display: block;
+  margin: 0px auto;
+  padding: 1px;
+}
+#footer p {
+  color:#fff;
+  text-align: center;
+}
+#footer p {
+  font-size: 20px;
+  color:#fff;
+  line-height: 1.3;
+  text-align: center;
+}
+#footer p strong {
+  font-size: 18px;
+}
+#footer p span {
+  font-size: 16px;
+}
+.footer-pic {
+display: block;
+margin: 0 auto;
+padding: 12px;
+}
