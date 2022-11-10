@@ -12,11 +12,11 @@ body input , body textarea {
 }
 #header {
   background-image: url(https://s6.uupload.ir/files/tasvir1_l8vh.png) ;
-  width: 100%;
+  min-width: 100%;
   height: 670px;
 }
 .wrapper {
-  min-width: 1000px;
+  width: 1000px;
   height: auto;
   margin: 0 auto;
 }
